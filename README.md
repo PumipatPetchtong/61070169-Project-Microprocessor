@@ -19,3 +19,18 @@
 </table>
 </body>
 </html>
+
+<h2>⚙️ Configuration</h2>
+1. ติดตั้งกล้อง Camera pi <br>
+   - โดยการใช้คำสั่ง pi@raspberry:~ $ sudo raspi-config <br>
+   - เลือกในส่วนของ Interfacing Options<br>
+   - แล้วทำการ enable camera <br>
+   - กดเลือก Finish<br><br>
+2. ใช้คำสั่ง pi@raspberry:~ $ ifconfig เพื่อดูว่าเราต้องใช้ ip เบอร์อะไรเพื่อที่จะเข้าไปดู live ในเว็บบราวเซอร์<br><br>
+    <img src="https://i.postimg.cc/6pDk3Npc/1621613200235.jpg"width="500" height="400"><br>
+3. ใช้คำสั่ง pi@raspberrypi:~ $ sudo apt-get install python-picamera python3-picamera พื่อติดตั้ง python pi camera<br><br>
+4. ใช้คำสั่ง pi@raspberrypi:~ $ nano rpi_camera_surveillance_system.py เพื่อเขียนโค๊ตโดยใช้ภาษา Python<br><br>
+5. ใช้คำสั่ง pi@raspberrypi:~ $ python3 rpi_camera_surveillance_system.py เพื่อรันโค๊ต<br><br>
+6. ไปที่หน้า Web browser แล้วทำการใส่ ip address ในตอนแรก http://192.168.1.58:8000<br><br>
+    <img src="https://i.postimg.cc/HWwhsJrP/message-Image-1621614404202.jpg"width="500" height="300"><br>
+    
