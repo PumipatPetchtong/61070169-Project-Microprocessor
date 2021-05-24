@@ -32,5 +32,5 @@
 4. ใช้คำสั่ง pi@raspberrypi:~ $ nano rpi_camera_surveillance_system.py เพื่อเขียนโค๊ตโดยใช้ภาษา Python<br><br>
 5. ใช้คำสั่ง pi@raspberrypi:~ $ python3 rpi_camera_surveillance_system.py เพื่อรันโค๊ต<br><br>
 6. ไปที่หน้า Web browser แล้วทำการใส่ ip address ในตอนแรก http://192.168.1.58:8000<br><br>
-    <img src="https://i.postimg.cc/HWwhsJrP/message-Image-1621614404202.jpg"width="500" height="300"><br>
-    
+    <img src="https://i.postimg.cc/HWwhsJrP/message-Image-1621614404202.jpg"width="500" height="300"><br><br>
+** โปรเจคกล้อง Raspberry pi ตัวนี้สามารถนำไปเป็นกล้อง Wedcam ใช้สำหรับกล้องคอมพิวเตอร์ได้อีกด้วย
